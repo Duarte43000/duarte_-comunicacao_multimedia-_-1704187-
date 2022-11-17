@@ -25,9 +25,9 @@
             app:tabMode="scrollable">
 
             <com.google.android.material.tabs.TabItem
-                android:layout_height="wrap_content"
                 android:layout_width="wrap_content"
-                android:text="Tab1" />
+                android:layout_height="wrap_content"
+                android:icon="@drawable/hamburger_icon_svg" />
 
             <com.google.android.material.tabs.TabItem
                 android:layout_height="wrap_content"

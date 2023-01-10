@@ -1,115 +1,112 @@
 <?xml version="1.0" encoding="utf-8"?>
-<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context=".ui.home.HomeFragment">
 
-    <LinearLayout
-        android:id="@+id/linearLayout"
-        android:layout_width="408dp"
-        android:layout_height="100dp"
-        android:layout_marginStart="1dp"
-        android:layout_marginTop="36dp"
-        android:layout_marginEnd="11dp"
-        android:orientation="horizontal"
-        app:layout_constraintBottom_toTopOf="@+id/linearLayout2"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.0"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent">
+    <GridLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_margin="20sp"
+        android:columnCount="3"
+        android:rowCount="3"
+        tools:layout_editor_absoluteX="20dp"
+        tools:layout_editor_absoluteY="20dp">
 
-        <ToggleButton
-            android:id="@+id/toggleButton"
-            android:layout_width="wrap_content"
-            android:layout_height="match_parent"
-            android:layout_weight="1"
-            android:background="@android:drawable/btn_dialog"
-            android:text="ToggleButton" />
+        <ImageView
+            android:id="@+id/imageView1"
+            android:layout_width="50sp"
+            android:layout_height="50sp"
+            android:layout_rowWeight="1"
+            android:layout_columnWeight="1"
+            android:layout_gravity="fill"
+            android:layout_margin="5sp"
+            android:src="@color/design_default_color_secondary" />
 
-        <ToggleButton
-            android:id="@+id/toggleButton2"
-            android:layout_width="wrap_content"
-            android:layout_height="match_parent"
-            android:layout_weight="1"
-            android:text="ToggleButton" />
+        <ImageView
+            android:id="@+id/imageView2"
+            android:layout_width="50sp"
+            android:layout_height="50sp"
+            android:layout_rowWeight="1"
+            android:layout_columnWeight="1"
+            android:layout_gravity="fill"
+            android:layout_margin="5sp"
+            android:src="@color/design_default_color_secondary" />
 
-        <ToggleButton
-            android:id="@+id/toggleButton3"
-            android:layout_width="wrap_content"
-            android:layout_height="match_parent"
-            android:layout_weight="1"
-            android:text="ToggleButton" />
-    </LinearLayout>
+        <ImageView
+            android:id="@+id/imageView3"
+            android:layout_width="50sp"
+            android:layout_height="50sp"
+            android:layout_rowWeight="1"
+            android:layout_columnWeight="1"
+            android:layout_gravity="fill"
+            android:layout_margin="5sp"
+            android:src="@color/design_default_color_secondary" />
 
-    <LinearLayout
-        android:id="@+id/linearLayout2"
-        android:layout_width="408dp"
-        android:layout_height="100dp"
-        android:layout_marginBottom="525dp"
-        android:orientation="horizontal"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.0"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@id/linearLayout">
+        <ImageView
+            android:id="@+id/imageView4"
+            android:layout_width="50sp"
+            android:layout_height="50sp"
+            android:layout_rowWeight="1"
+            android:layout_columnWeight="1"
+            android:layout_gravity="fill"
+            android:layout_margin="5sp"
+            android:src="@color/design_default_color_secondary" />
 
-        <ToggleButton
-            android:id="@+id/toggleButton4"
-            android:layout_width="wrap_content"
-            android:layout_height="match_parent"
-            android:layout_weight="1"
-            android:background="@android:drawable/btn_dialog"
-            android:text="ToggleButton" />
+        <ImageView
+            android:id="@+id/imageView5"
+            android:layout_width="50sp"
+            android:layout_height="50sp"
+            android:layout_rowWeight="1"
+            android:layout_columnWeight="1"
+            android:layout_gravity="fill"
+            android:layout_margin="5sp"
+            android:src="@color/design_default_color_secondary" />
 
-        <ToggleButton
-            android:id="@+id/toggleButton5"
-            android:layout_width="wrap_content"
-            android:layout_height="match_parent"
-            android:layout_weight="1"
-            android:text="ToggleButton" />
+        <ImageView
+            android:id="@+id/imageView6"
+            android:layout_width="50sp"
+            android:layout_height="50sp"
+            android:layout_rowWeight="1"
+            android:layout_columnWeight="1"
+            android:layout_gravity="fill"
+            android:layout_margin="5sp"
+            android:src="@color/design_default_color_secondary" />
 
-        <ToggleButton
-            android:id="@+id/toggleButton6"
-            android:layout_width="wrap_content"
-            android:layout_height="match_parent"
-            android:layout_weight="1"
-            android:text="ToggleButton" />
-    </LinearLayout>
+        <ImageView
+            android:id="@+id/imageView7"
+            android:layout_width="50sp"
+            android:layout_height="50sp"
+            android:layout_rowWeight="1"
+            android:layout_columnWeight="1"
+            android:layout_gravity="fill"
+            android:layout_margin="5sp"
+            android:src="@color/design_default_color_secondary" />
 
-    <LinearLayout
-        android:id="@+id/linearLayout3"
-        android:layout_width="408dp"
-        android:layout_height="100dp"
-        android:layout_marginBottom="300dp"
-        android:orientation="horizontal"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.0"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@id/linearLayout">
+        <ImageView
+            android:id="@+id/imageView8"
+            android:layout_width="50sp"
+            android:layout_height="50sp"
+            android:layout_rowWeight="1"
+            android:layout_columnWeight="1"
+            android:layout_gravity="fill"
+            android:layout_margin="5sp"
+            android:src="@color/design_default_color_secondary" />
 
-        <ToggleButton
-            android:id="@+id/toggleButton7"
-            android:layout_width="wrap_content"
-            android:layout_height="match_parent"
-            android:layout_weight="1"
-            android:background="@android:drawable/btn_dialog"
-            android:text="ToggleButton" />
+        <ImageView
+            android:id="@+id/imageView9"
+            android:layout_width="50sp"
+            android:layout_height="50sp"
+            android:layout_rowWeight="1"
+            android:layout_columnWeight="1"
+            android:layout_gravity="fill"
+            android:layout_margin="5sp"
+            android:src="@color/design_default_color_secondary" />
 
-        <ToggleButton
-            android:id="@+id/toggleButton8"
-            android:layout_width="wrap_content"
-            android:layout_height="match_parent"
-            android:layout_weight="1"
-            android:text="ToggleButton" />
 
-        <ToggleButton
-            android:id="@+id/toggleButton9"
-            android:layout_width="wrap_content"
-            android:layout_height="match_parent"
-            android:layout_weight="1"
-            android:text="ToggleButton" />
-    </LinearLayout>
-</androidx.constraintlayout.widget.ConstraintLayout>
+    </GridLayout>
+
+        </androidx.constraintlayout.widget.ConstraintLayout>
